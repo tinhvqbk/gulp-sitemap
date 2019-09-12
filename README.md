@@ -71,6 +71,14 @@ Type: `string`
 
 Required: `true`
 
+### stylesheetURL
+
+Your sitemap style . This gets prepended to all documents locations.
+
+Type: `string`
+
+Required: `false`
+
 ### fileName
 
 Determine the output filename for the sitemap.
