@@ -1,8 +1,8 @@
 {
-  "name": "gulp-sitemap",
-  "version": "7.5.0",
+  "name": "gulp-sitemap-re",
+  "version": "0.1.0",
   "description": "Generate a search engine friendly sitemap.xml using a Gulp stream",
-  "repository": "pgilad/gulp-sitemap",
+  "repository": "tinhvqbk/gulp-sitemap",
   "license": "MIT",
   "author": "Gilad Peleg <gilad@giladpeleg.com> (https://www.giladpeleg.com)",
   "main": "index.js",

@@ -1,9 +1,10 @@
-# [gulp](https://github.com/wearefractal/gulp)-sitemap
+
+# [Re] [gulp](https://github.com/tinhvqbk/gulp)-sitemap
 > Generate a search engine friendly sitemap.xml using a Gulp stream
 
-[![NPM version](http://img.shields.io/npm/v/gulp-sitemap.svg?style=flat)](https://www.npmjs.org/package/gulp-sitemap)
-[![NPM Downloads](http://img.shields.io/npm/dm/gulp-sitemap.svg?style=flat)](https://www.npmjs.org/package/gulp-sitemap)
-[![Build Status](http://img.shields.io/travis/pgilad/gulp-sitemap/master.svg?style=flat)](https://travis-ci.org/pgilad/gulp-sitemap)
+[![NPM version](http://img.shields.io/npm/v/gulp-sitemap-re.svg?style=flat)](https://www.npmjs.org/package/gulp-sitemap-re)
+[![NPM Downloads](http://img.shields.io/npm/dm/gulp-sitemap-re.svg?style=flat)](https://www.npmjs.org/package/gulp-sitemap-re)
+[![Build Status](http://img.shields.io/travis/pgilad/gulp-sitemap-re/master.svg?style=flat)](https://travis-ci.org/pgilad/gulp-sitemap-re)
 
 Easily generate a search engine friendly sitemap.xml from your project.
 
@@ -13,17 +14,17 @@ For information about sitemap properties and structure, see the [wiki for sitema
 
 ## Install
 
-Install with [npm](https://npmjs.org/package/gulp-sitemap)
+Install with [npm](https://npmjs.org/package/gulp-sitemap-re)
 
 ```bash
-$ npm install --save-dev gulp-sitemap
+$ npm install --save-dev gulp-sitemap-re
 ```
 
 ## Example
 
 ```js
 var gulp = require('gulp');
-var sitemap = require('gulp-sitemap');
+var sitemap = require('gulp-sitemap-re');
 
 gulp.task('sitemap', function () {
     gulp.src('build/**/*.html', {
@@ -296,6 +297,8 @@ If true, will log the number of files that where handled.
 
 To [grunt-sitemap](https://github.com/RayViljoen/grunt-sitemap) for the inspiration on writing this.
 
-## License
+## Original Package
+[gulp-sitemap](https://github.com/pgilad/gulp-sitemap)
 
+## License
 MIT © [Gilad Peleg](https://www.giladpeleg.com)
